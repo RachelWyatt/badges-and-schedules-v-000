@@ -21,6 +21,6 @@ end
 
 def printer
   batch_badge_creator.map! do |attendees|
-    print attendees
+    puts attendees
   end
 end
