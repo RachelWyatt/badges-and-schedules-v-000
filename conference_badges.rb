@@ -1,3 +1,5 @@
+class Badges
+
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
@@ -23,4 +25,6 @@ def printer(input_array)
   input_array.each do |attendees|
     batch_badge_creator
   end
+end
+
 end
