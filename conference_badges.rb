@@ -21,8 +21,7 @@ end
 return room_array
 end
 
-def printer(input_array)
-  input_array.each do |attendees|
-    batch_badge_creator
+def printer(attendees )
+  batch_badge_creator(attendees).each do |badge|
   end
 end
