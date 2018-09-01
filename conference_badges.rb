@@ -26,4 +26,3 @@ def printer(input_array)
     batch_badge_creator
   end
 end
-
