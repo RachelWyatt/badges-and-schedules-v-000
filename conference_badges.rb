@@ -1,4 +1,4 @@
-class Badges
+
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
@@ -27,4 +27,3 @@ def printer(input_array)
   end
 end
 
-end
