@@ -19,12 +19,8 @@ end
 return room_array
 end
 
-def printer(batch_badge_creator)
+def printer
   batch_badge_creator.map! do |attendees|
     print attendees
-  end
-  assign_rooms.map! do |attendees, index|
-    indexplusone = index + 1
-    puts "Hello, #{name}! You'll be assigned to room #{indexplusone}!"
   end
 end
