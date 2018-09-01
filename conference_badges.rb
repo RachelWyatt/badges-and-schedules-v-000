@@ -21,7 +21,7 @@ end
 
 def printer(batch_badge_creator)
   batch_badge_creator.map! do |attendees|
-    prints attendees
+    print attendees
   end
   assign_rooms.map! do |attendees, index|
     indexplusone = index + 1
