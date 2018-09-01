@@ -19,8 +19,9 @@ end
 return room_array
 end
 
-def printer(attendees)
-  batch_badge_creator.map! do |attendees|
+def printer(input_array)
+  input_array. each do |attendees|
+    batch_badge_creator
     puts attendees
   end
 end
